@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">examenIB</string>
+    <string name="str_btn_crear">CREAR</string>
+    <string name="str_btn_listar">LISTAR</string>
 </resources>

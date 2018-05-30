@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="crear_estilo_boton">
+        <item name="android:background"></item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <style name="listar_estilo_boton">
+        <item name="android:background"></item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+
+
 </resources>

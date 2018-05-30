@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">examIB</string>
+    <string name="str_btn_crear">CREATE</string>
+    <string name="str_btn_listar">LIST</string>
+</resources>
