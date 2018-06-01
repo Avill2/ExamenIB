@@ -7,4 +7,6 @@
     <string name="Fechadenacimiento">Fechadenacimiento</string>
     <string name="NumeroAutos">NumeroAutos</string>
     <string name="Licencia">Licencia</string>
+    <string name="crear_conductor">crear_conductor</string>
+    <string name="title_activity_listar">ListarActivity</string>
 </resources>

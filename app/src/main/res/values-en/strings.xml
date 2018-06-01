@@ -6,4 +6,6 @@
     <string name="Fechadenacimiento">Birthdate</string>
     <string name="NumeroAutos">numberofcars</string>
     <string name="Licencia">License</string>
+    <string name="crear_conductor">crear</string>
+    <string name="Apellidos">LastName</string>
 </resources>
