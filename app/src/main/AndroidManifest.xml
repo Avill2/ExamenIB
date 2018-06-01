@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".conductor_Activity" />
-        <activity android:name=".Auto_Activity"></activity>
+        <activity android:name=".Auto_Activity" />
+        <activity android:name=".CrearActivity"></activity>
     </application>
 
 </manifest>

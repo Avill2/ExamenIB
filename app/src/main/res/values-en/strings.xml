@@ -2,4 +2,8 @@
     <string name="app_name">examIB</string>
     <string name="str_btn_crear">CREATE</string>
     <string name="str_btn_listar">LIST</string>
+    <string name="Nombres">Names</string>
+    <string name="Fechadenacimiento">Birthdate</string>
+    <string name="NumeroAutos">numberofcars</string>
+    <string name="Licencia">License</string>
 </resources>

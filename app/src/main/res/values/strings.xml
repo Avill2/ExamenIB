@@ -2,4 +2,9 @@
     <string name="app_name">examenIB</string>
     <string name="str_btn_crear">CREAR</string>
     <string name="str_btn_listar">LISTAR</string>
+    <string name="Nombres">Nombres</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Fechadenacimiento">Fechadenacimiento</string>
+    <string name="NumeroAutos">NumeroAutos</string>
+    <string name="Licencia">Licencia</string>
 </resources>
