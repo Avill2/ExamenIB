@@ -8,4 +8,7 @@
     <string name="Licencia">License</string>
     <string name="crear_conductor">crear</string>
     <string name="Apellidos">LastName</string>
+    <string name="botonDetalle">Detalle</string>
+    <string name="Detalle">buttonDetalle</string>
+    <string name="button_detalle">Detalle</string>
 </resources>
