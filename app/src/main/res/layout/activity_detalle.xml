@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="134dp"
+        android:layout_height="26dp"
+        android:text="Detalles Conductor"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Nuevo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/relativeLayout"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="264dp"
+        android:layout_height="292dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:layout_editor_absoluteX="16dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Nombres" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="74dp"
+            android:text="Apellidos" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText4"
+            android:layout_alignStart="@+id/editText"
+            android:text="fecha de nacimiento" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView12"
+            android:layout_marginBottom="70dp"
+            android:text="numero de autos" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView10"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView14"
+            android:layout_alignEnd="@+id/editText"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText5"
+            android:layout_alignEnd="@+id/editText"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView12"
+            android:layout_marginBottom="20dp"
+            android:text="Licencia Valida" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView13"
+            android:layout_alignEnd="@+id/editText"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="353dp"
+        android:layout_height="156dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="0.384" />
+</android.support.constraint.ConstraintLayout>

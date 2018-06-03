@@ -23,6 +23,7 @@
             android:name=".ListarActivity"
             android:label="@string/title_activity_listar"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetalleActivity"></activity>
     </application>
 
 </manifest>

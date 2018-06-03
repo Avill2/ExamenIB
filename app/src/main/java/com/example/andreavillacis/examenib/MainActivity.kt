@@ -18,14 +18,19 @@ class MainActivity : AppCompatActivity() {
         }
 
         button_crear.setOnClickListener{ view :View ->
+            irActividad_crear_conductor()
         }
     }
 
         fun irActividad_Conductor() {
             TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-            val intent = Intent(this, conductor_Activity::class.java)
+            val intent = Intent(this, ListarActivity::class.java)
             startActivity(intent)
         }
+    fun irActividad_crear_conductor(){
+        val intent = Intent(this, CrearActivity::class.java)
+        startActivity(intent)
+    }
 }
 
 
